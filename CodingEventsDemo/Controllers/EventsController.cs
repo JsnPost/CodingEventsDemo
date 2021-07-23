@@ -22,5 +22,17 @@ namespace coding_events_practice.Controllers
 
             return View();
         }
+
+        public IActionResult Edit(int eventId)
+        {
+
+        }
+
+        [HttpPost]
+        [Route("/Events/Edit")]
+        public IActionResult SubmitEditEventForm(int eventId, string name, string description)
+        {
+
+        }
     }
 }
